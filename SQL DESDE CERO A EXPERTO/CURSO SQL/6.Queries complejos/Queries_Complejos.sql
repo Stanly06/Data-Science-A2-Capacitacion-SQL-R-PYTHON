@@ -140,7 +140,7 @@ FROM (
             venta - (SELECT promdioventa) AS delta
             FROM ventas) AS promedio
 WHERE delta >100;            
-WHERE delta >100;            
+           
        
       
       
